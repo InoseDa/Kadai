@@ -12,12 +12,12 @@ public class Main {
 
         List<Movie> movieList = new ArrayList<>();
 
-        for (Movie cnt1 : movies){
-            movieList.add(cnt1);
+        for (Movie movie : movies){
+            movieList.add(movie);
         }
 
-        for (Movie cnt2 : movieList){
-            cnt2.sayDetail();
+        for (Movie movie : movieList){
+            movie.sayDetail();
         }
     }
 }
